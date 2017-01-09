@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035D50651E01BE6200F0A718 /* mydb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 035DDD8C1E019F6B00435768 /* mydb.sqlite */; };
+		035DDD8E1E01A33800435768 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 035DDD8D1E01A33800435768 /* libsqlite3.0.tbd */; };
+		0376707B1E013F7600610CE7 /* DataListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376707A1E013F7600610CE7 /* DataListTableViewCell.m */; };
 		037948AA1DFFC1D300626F3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948A91DFFC1D300626F3B /* main.m */; };
 		037948AD1DFFC1D300626F3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948AC1DFFC1D300626F3B /* AppDelegate.m */; };
 		037948B01DFFC1D300626F3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948AF1DFFC1D300626F3B /* ViewController.m */; };
 		037948B31DFFC1D300626F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037948B11DFFC1D300626F3B /* Main.storyboard */; };
 		037948B51DFFC1D300626F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037948B41DFFC1D300626F3B /* Assets.xcassets */; };
 		037948B81DFFC1D300626F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037948B61DFFC1D300626F3B /* LaunchScreen.storyboard */; };
+		037948C71DFFC87C00626F3B /* guide_how_to_lay_pavers.html in Resources */ = {isa = PBXBuildFile; fileRef = 037948C31DFFC87C00626F3B /* guide_how_to_lay_pavers.html */; };
+		037948C81DFFC87C00626F3B /* how_to_use_this_app.html in Resources */ = {isa = PBXBuildFile; fileRef = 037948C41DFFC87C00626F3B /* how_to_use_this_app.html */; };
+		037948C91DFFC87C00626F3B /* safety_for_laying_pavers.html in Resources */ = {isa = PBXBuildFile; fileRef = 037948C51DFFC87C00626F3B /* safety_for_laying_pavers.html */; };
+		037948CA1DFFC87C00626F3B /* tools_for_laying_pavers.html in Resources */ = {isa = PBXBuildFile; fileRef = 037948C61DFFC87C00626F3B /* tools_for_laying_pavers.html */; };
+		037948D11DFFC8A000626F3B /* CalculateCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948CC1DFFC8A000626F3B /* CalculateCellTableViewCell.m */; };
+		037948D21DFFC8A000626F3B /* CalculateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948CE1DFFC8A000626F3B /* CalculateListViewController.m */; };
+		037948D31DFFC8A000626F3B /* CalculationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948D01DFFC8A000626F3B /* CalculationViewController.m */; };
+		037948D81DFFC8B200626F3B /* GuidesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948D51DFFC8B200626F3B /* GuidesDetailViewController.m */; };
+		037948D91DFFC8B200626F3B /* GuidesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948D71DFFC8B200626F3B /* GuidesMainViewController.m */; };
+		037948DC1DFFC8E000626F3B /* MaterialLabourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948DB1DFFC8E000626F3B /* MaterialLabourViewController.m */; };
+		037948DF1DFFC8ED00626F3B /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948DE1DFFC8ED00626F3B /* NoteViewController.m */; };
+		037948E41DFFC90500626F3B /* PlantEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948E11DFFC90500626F3B /* PlantEquipmentViewController.m */; };
+		037948E51DFFC90500626F3B /* QuotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948E31DFFC90500626F3B /* QuotationViewController.m */; };
+		037948E81DFFC91600626F3B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948E71DFFC91600626F3B /* HomeViewController.m */; };
+		037948EB1DFFD6DA00626F3B /* UserPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948EA1DFFD6DA00626F3B /* UserPreferencesViewController.m */; };
+		037948EE1E000B1500626F3B /* FootingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037948ED1E000B1500626F3B /* FootingViewController.m */; };
+		037D4B321E00EB35007CC826 /* CalculationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 037D4B2F1E00EB35007CC826 /* CalculationData.m */; };
+		037D4B331E00EB35007CC826 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 037D4B311E00EB35007CC826 /* Fraction.m */; };
+		037D4B361E00EB80007CC826 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 037D4B351E00EB80007CC826 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DF02166D1E15EBF90057060D /* SettingsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF02166C1E15EBF90057060D /* SettingsMainViewController.m */; };
+		DF4D5B521E03FAE10084F843 /* DataListTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4D5B511E03FAE10084F843 /* DataListTableViewCell1.m */; };
+		DF4D5B551E042AAA0084F843 /* FolderMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4D5B541E042AAA0084F843 /* FolderMainViewController.m */; };
+		DFDA54271E16308F000E093B /* QuotationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA54261E16308F000E093B /* QuotationListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035DDD8C1E019F6B00435768 /* mydb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydb.sqlite; sourceTree = "<group>"; };
+		035DDD8D1E01A33800435768 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		037670791E013F7600610CE7 /* DataListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataListTableViewCell.h; sourceTree = "<group>"; };
+		0376707A1E013F7600610CE7 /* DataListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataListTableViewCell.m; sourceTree = "<group>"; };
 		037948A51DFFC1D300626F3B /* FootingCalculatorPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootingCalculatorPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		037948A91DFFC1D300626F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		037948AB1DFFC1D300626F3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +56,48 @@
 		037948B41DFFC1D300626F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		037948B71DFFC1D300626F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		037948B91DFFC1D300626F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037948C31DFFC87C00626F3B /* guide_how_to_lay_pavers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = guide_how_to_lay_pavers.html; sourceTree = "<group>"; };
+		037948C41DFFC87C00626F3B /* how_to_use_this_app.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = how_to_use_this_app.html; sourceTree = "<group>"; };
+		037948C51DFFC87C00626F3B /* safety_for_laying_pavers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = safety_for_laying_pavers.html; sourceTree = "<group>"; };
+		037948C61DFFC87C00626F3B /* tools_for_laying_pavers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tools_for_laying_pavers.html; sourceTree = "<group>"; };
+		037948CB1DFFC8A000626F3B /* CalculateCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateCellTableViewCell.h; sourceTree = "<group>"; };
+		037948CC1DFFC8A000626F3B /* CalculateCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateCellTableViewCell.m; sourceTree = "<group>"; };
+		037948CD1DFFC8A000626F3B /* CalculateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateListViewController.h; sourceTree = "<group>"; };
+		037948CE1DFFC8A000626F3B /* CalculateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateListViewController.m; sourceTree = "<group>"; };
+		037948CF1DFFC8A000626F3B /* CalculationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationViewController.h; sourceTree = "<group>"; };
+		037948D01DFFC8A000626F3B /* CalculationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationViewController.m; sourceTree = "<group>"; };
+		037948D41DFFC8B200626F3B /* GuidesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidesDetailViewController.h; sourceTree = "<group>"; };
+		037948D51DFFC8B200626F3B /* GuidesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidesDetailViewController.m; sourceTree = "<group>"; };
+		037948D61DFFC8B200626F3B /* GuidesMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidesMainViewController.h; sourceTree = "<group>"; };
+		037948D71DFFC8B200626F3B /* GuidesMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidesMainViewController.m; sourceTree = "<group>"; };
+		037948DA1DFFC8E000626F3B /* MaterialLabourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialLabourViewController.h; sourceTree = "<group>"; };
+		037948DB1DFFC8E000626F3B /* MaterialLabourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialLabourViewController.m; sourceTree = "<group>"; };
+		037948DD1DFFC8ED00626F3B /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		037948DE1DFFC8ED00626F3B /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		037948E01DFFC90500626F3B /* PlantEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantEquipmentViewController.h; sourceTree = "<group>"; };
+		037948E11DFFC90500626F3B /* PlantEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantEquipmentViewController.m; sourceTree = "<group>"; };
+		037948E21DFFC90500626F3B /* QuotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotationViewController.h; sourceTree = "<group>"; };
+		037948E31DFFC90500626F3B /* QuotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotationViewController.m; sourceTree = "<group>"; };
+		037948E61DFFC91600626F3B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		037948E71DFFC91600626F3B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		037948E91DFFD6DA00626F3B /* UserPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferencesViewController.h; sourceTree = "<group>"; };
+		037948EA1DFFD6DA00626F3B /* UserPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferencesViewController.m; sourceTree = "<group>"; };
+		037948EC1E000B1500626F3B /* FootingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootingViewController.h; sourceTree = "<group>"; };
+		037948ED1E000B1500626F3B /* FootingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootingViewController.m; sourceTree = "<group>"; };
+		037D4B2E1E00EB35007CC826 /* CalculationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationData.h; sourceTree = "<group>"; };
+		037D4B2F1E00EB35007CC826 /* CalculationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationData.m; sourceTree = "<group>"; };
+		037D4B301E00EB35007CC826 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		037D4B311E00EB35007CC826 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		037D4B341E00EB80007CC826 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		037D4B351E00EB80007CC826 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		DF02166B1E15EBF90057060D /* SettingsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMainViewController.h; sourceTree = "<group>"; };
+		DF02166C1E15EBF90057060D /* SettingsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMainViewController.m; sourceTree = "<group>"; };
+		DF4D5B501E03FAE10084F843 /* DataListTableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataListTableViewCell1.h; sourceTree = "<group>"; };
+		DF4D5B511E03FAE10084F843 /* DataListTableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataListTableViewCell1.m; sourceTree = "<group>"; };
+		DF4D5B531E042AAA0084F843 /* FolderMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderMainViewController.h; sourceTree = "<group>"; };
+		DF4D5B541E042AAA0084F843 /* FolderMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderMainViewController.m; sourceTree = "<group>"; };
+		DFDA54251E16308F000E093B /* QuotationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotationListTableViewController.h; sourceTree = "<group>"; };
+		DFDA54261E16308F000E093B /* QuotationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotationListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035DDD8E1E01A33800435768 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +115,7 @@
 		0379489C1DFFC1D300626F3B = {
 			isa = PBXGroup;
 			children = (
+				035DDD8D1E01A33800435768 /* libsqlite3.0.tbd */,
 				037948A71DFFC1D300626F3B /* FootingCalculatorPro */,
 				037948A61DFFC1D300626F3B /* Products */,
 			);
@@ -58,6 +132,17 @@
 		037948A71DFFC1D300626F3B /* FootingCalculatorPro */ = {
 			isa = PBXGroup;
 			children = (
+				035DDD8C1E019F6B00435768 /* mydb.sqlite */,
+				037D4B2D1E00EAC8007CC826 /* utils */,
+				037D4B2C1E00EAB7007CC826 /* datatype */,
+				037948C31DFFC87C00626F3B /* guide_how_to_lay_pavers.html */,
+				037948C41DFFC87C00626F3B /* how_to_use_this_app.html */,
+				037948C51DFFC87C00626F3B /* safety_for_laying_pavers.html */,
+				037948C61DFFC87C00626F3B /* tools_for_laying_pavers.html */,
+				037948C21DFFC82300626F3B /* settings */,
+				037948C11DFFC81800626F3B /* folders */,
+				037948C01DFFC80E00626F3B /* guides */,
+				037948BF1DFFC80600626F3B /* home */,
 				037948AB1DFFC1D300626F3B /* AppDelegate.h */,
 				037948AC1DFFC1D300626F3B /* AppDelegate.m */,
 				037948AE1DFFC1D300626F3B /* ViewController.h */,
@@ -77,6 +162,88 @@
 				037948A91DFFC1D300626F3B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		037948BF1DFFC80600626F3B /* home */ = {
+			isa = PBXGroup;
+			children = (
+				037670791E013F7600610CE7 /* DataListTableViewCell.h */,
+				0376707A1E013F7600610CE7 /* DataListTableViewCell.m */,
+				037948E61DFFC91600626F3B /* HomeViewController.h */,
+				037948E71DFFC91600626F3B /* HomeViewController.m */,
+				037948EC1E000B1500626F3B /* FootingViewController.h */,
+				037948ED1E000B1500626F3B /* FootingViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		037948C01DFFC80E00626F3B /* guides */ = {
+			isa = PBXGroup;
+			children = (
+				037948D41DFFC8B200626F3B /* GuidesDetailViewController.h */,
+				037948D51DFFC8B200626F3B /* GuidesDetailViewController.m */,
+				037948D61DFFC8B200626F3B /* GuidesMainViewController.h */,
+				037948D71DFFC8B200626F3B /* GuidesMainViewController.m */,
+			);
+			name = guides;
+			sourceTree = "<group>";
+		};
+		037948C11DFFC81800626F3B /* folders */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA54251E16308F000E093B /* QuotationListTableViewController.h */,
+				DFDA54261E16308F000E093B /* QuotationListTableViewController.m */,
+				037948E21DFFC90500626F3B /* QuotationViewController.h */,
+				037948E31DFFC90500626F3B /* QuotationViewController.m */,
+				037948DD1DFFC8ED00626F3B /* NoteViewController.h */,
+				037948DE1DFFC8ED00626F3B /* NoteViewController.m */,
+				037948CB1DFFC8A000626F3B /* CalculateCellTableViewCell.h */,
+				037948CC1DFFC8A000626F3B /* CalculateCellTableViewCell.m */,
+				037948CD1DFFC8A000626F3B /* CalculateListViewController.h */,
+				037948CE1DFFC8A000626F3B /* CalculateListViewController.m */,
+				037948CF1DFFC8A000626F3B /* CalculationViewController.h */,
+				037948D01DFFC8A000626F3B /* CalculationViewController.m */,
+				DF4D5B501E03FAE10084F843 /* DataListTableViewCell1.h */,
+				DF4D5B511E03FAE10084F843 /* DataListTableViewCell1.m */,
+				DF4D5B531E042AAA0084F843 /* FolderMainViewController.h */,
+				DF4D5B541E042AAA0084F843 /* FolderMainViewController.m */,
+			);
+			name = folders;
+			sourceTree = "<group>";
+		};
+		037948C21DFFC82300626F3B /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				037948E91DFFD6DA00626F3B /* UserPreferencesViewController.h */,
+				037948EA1DFFD6DA00626F3B /* UserPreferencesViewController.m */,
+				037948E01DFFC90500626F3B /* PlantEquipmentViewController.h */,
+				037948E11DFFC90500626F3B /* PlantEquipmentViewController.m */,
+				037948DA1DFFC8E000626F3B /* MaterialLabourViewController.h */,
+				037948DB1DFFC8E000626F3B /* MaterialLabourViewController.m */,
+				DF02166B1E15EBF90057060D /* SettingsMainViewController.h */,
+				DF02166C1E15EBF90057060D /* SettingsMainViewController.m */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		037D4B2C1E00EAB7007CC826 /* datatype */ = {
+			isa = PBXGroup;
+			children = (
+				037D4B2E1E00EB35007CC826 /* CalculationData.h */,
+				037D4B2F1E00EB35007CC826 /* CalculationData.m */,
+				037D4B301E00EB35007CC826 /* Fraction.h */,
+				037D4B311E00EB35007CC826 /* Fraction.m */,
+			);
+			name = datatype;
+			sourceTree = "<group>";
+		};
+		037D4B2D1E00EAC8007CC826 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				037D4B341E00EB80007CC826 /* RegexKitLite.h */,
+				037D4B351E00EB80007CC826 /* RegexKitLite.m */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +277,7 @@
 				TargetAttributes = {
 					037948A41DFFC1D300626F3B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8RL88EC6TM;
 					};
 				};
 			};
@@ -136,7 +304,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035D50651E01BE6200F0A718 /* mydb.sqlite in Resources */,
 				037948B81DFFC1D300626F3B /* LaunchScreen.storyboard in Resources */,
+				037948C91DFFC87C00626F3B /* safety_for_laying_pavers.html in Resources */,
+				037948C71DFFC87C00626F3B /* guide_how_to_lay_pavers.html in Resources */,
+				037948CA1DFFC87C00626F3B /* tools_for_laying_pavers.html in Resources */,
+				037948C81DFFC87C00626F3B /* how_to_use_this_app.html in Resources */,
 				037948B51DFFC1D300626F3B /* Assets.xcassets in Resources */,
 				037948B31DFFC1D300626F3B /* Main.storyboard in Resources */,
 			);
@@ -149,9 +322,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037D4B361E00EB80007CC826 /* RegexKitLite.m in Sources */,
+				037948EE1E000B1500626F3B /* FootingViewController.m in Sources */,
+				037948EB1DFFD6DA00626F3B /* UserPreferencesViewController.m in Sources */,
+				037948D11DFFC8A000626F3B /* CalculateCellTableViewCell.m in Sources */,
+				037948D81DFFC8B200626F3B /* GuidesDetailViewController.m in Sources */,
+				037948D91DFFC8B200626F3B /* GuidesMainViewController.m in Sources */,
+				DF02166D1E15EBF90057060D /* SettingsMainViewController.m in Sources */,
+				037D4B321E00EB35007CC826 /* CalculationData.m in Sources */,
+				037948DC1DFFC8E000626F3B /* MaterialLabourViewController.m in Sources */,
 				037948B01DFFC1D300626F3B /* ViewController.m in Sources */,
 				037948AD1DFFC1D300626F3B /* AppDelegate.m in Sources */,
+				037948E41DFFC90500626F3B /* PlantEquipmentViewController.m in Sources */,
 				037948AA1DFFC1D300626F3B /* main.m in Sources */,
+				DF4D5B551E042AAA0084F843 /* FolderMainViewController.m in Sources */,
+				037D4B331E00EB35007CC826 /* Fraction.m in Sources */,
+				DF4D5B521E03FAE10084F843 /* DataListTableViewCell1.m in Sources */,
+				037948D31DFFC8A000626F3B /* CalculationViewController.m in Sources */,
+				037948DF1DFFC8ED00626F3B /* NoteViewController.m in Sources */,
+				037948D21DFFC8A000626F3B /* CalculateListViewController.m in Sources */,
+				037948E51DFFC90500626F3B /* QuotationViewController.m in Sources */,
+				0376707B1E013F7600610CE7 /* DataListTableViewCell.m in Sources */,
+				DFDA54271E16308F000E093B /* QuotationListTableViewController.m in Sources */,
+				037948E81DFFC91600626F3B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FootingCalculatorPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lcs.FootingCalculatorPro;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps4builders.ConcreteCalculatorPRO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,10 +470,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FootingCalculatorPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lcs.FootingCalculatorPro;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps4builders.ConcreteCalculatorPRO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +499,7 @@
 				037948BE1DFFC1D300626F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
